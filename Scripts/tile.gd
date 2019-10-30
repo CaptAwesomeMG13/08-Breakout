@@ -15,17 +15,17 @@ func _ready():
 		sprite.set_texture(gray)
 	if get_parent().name == "Red Tiles":
 		sprite.set_texture(red)
-		score = 20
+		score = 25
 	if get_parent().name == "Blue Tiles":
 		sprite.set_texture(blue)
-		score = 30
+		score = 50
 	if get_parent().name == "Green Tiles":
 		sprite.set_texture(green)
-		score = 40
+		score = 75
 	if get_parent().name == "Purple Tiles":
 		sprite.set_texture(purple)
-		score = 50
+		score = 100
 	if get_parent().name == "Yellow Tiles":
 		sprite.set_texture(yellow)
-		score = 60
+		score = 200
 	
