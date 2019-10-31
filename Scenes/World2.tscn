@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://Scripts/World.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/World2.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/paddle.gd" type="Script" id=2]
 [ext_resource path="res://Assets/paddle.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/Ball.tscn" type="PackedScene" id=4]
@@ -47,9 +47,14 @@ editor/display_folded = true
 polygon = PoolVector2Array( 0, 640, 0, 0, 1024, 0, 1024, 640, 1088, 640, 1088, -64, -64, -64, -64, 640, 0, 640 )
 
 [node name="Tiles" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="Gray Tiles" type="Node2D" parent="Tiles"]
+editor/display_folded = true
 position = Vector2( 12, -96 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Tile" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
 position = Vector2( 93.518, 385.108 )
