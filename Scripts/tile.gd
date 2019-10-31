@@ -27,5 +27,5 @@ func _ready():
 		score = 100
 	if get_parent().name == "Yellow Tiles":
 		sprite.set_texture(yellow)
-		score = 200
+		score = 150
 	
