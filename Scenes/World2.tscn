@@ -47,47 +47,46 @@ editor/display_folded = true
 polygon = PoolVector2Array( 0, 640, 0, 0, 1024, 0, 1024, 640, 1088, 640, 1088, -64, -64, -64, -64, 640, 0, 640 )
 
 [node name="Tiles" type="Node" parent="."]
-editor/display_folded = true
 
 [node name="Gray Tiles" type="Node2D" parent="Tiles"]
-editor/display_folded = true
 position = Vector2( 12, -96 )
 
 [node name="Tile" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
+position = Vector2( 93.518, 385.108 )
 
 [node name="Tile2" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 228, 384 )
+position = Vector2( 161.518, 385.108 )
 
 [node name="Tile3" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 296, 384 )
+position = Vector2( 229.518, 385.108 )
 
 [node name="Tile4" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 364, 384 )
+position = Vector2( 297.518, 385.108 )
 
 [node name="Tile5" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 432, 384 )
+position = Vector2( 365.518, 385.108 )
 
 [node name="Tile6" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 500, 384 )
+position = Vector2( 433.518, 385.108 )
 
 [node name="Tile7" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 568, 384 )
+position = Vector2( 501.518, 385.108 )
 
 [node name="Tile8" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 636, 384 )
+position = Vector2( 569.518, 385.108 )
 
 [node name="Tile9" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 704, 384 )
+position = Vector2( 637.518, 385.108 )
 
 [node name="Tile10" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 772, 384 )
+position = Vector2( 705.518, 385.108 )
 
 [node name="Tile11" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 840, 384 )
+position = Vector2( 773.518, 385.108 )
 
 [node name="Red Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -132 )
+position = Vector2( 80.6981, -130.892 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -126,7 +125,7 @@ position = Vector2( 840, 384 )
 
 [node name="Blue Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -168 )
+position = Vector2( -55.59, -166.892 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -165,7 +164,7 @@ position = Vector2( 840, 384 )
 
 [node name="Green Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -204 )
+position = Vector2( 80, -204 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -204,7 +203,7 @@ position = Vector2( 840, 384 )
 
 [node name="Purple Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -240 )
+position = Vector2( -53.3518, -240 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -243,7 +242,7 @@ position = Vector2( 840, 384 )
 
 [node name="Yellow Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -276 )
+position = Vector2( 81.8061, -276.759 )
 __meta__ = {
 "_edit_group_": true
 }

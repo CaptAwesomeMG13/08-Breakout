@@ -12,7 +12,9 @@ func decrease_lives():
  find_node("Lives").update_lives()
  if lives <= 0:
   get_tree().change_scene("res://Scenes/End.tscn")
- if score >= 4510:
+ if score == 4510:
   get_tree().change_scene("res://Scenes/World2.tscn")
- if score >= 9020:
+ if score == 9020:
   get_tree().change_scene("res://Scenes/World3.tscn")
+ if score >= 13530:
+  get_tree().change_scene("res://Scenes/Win.tscn")
