@@ -1,6 +1,6 @@
 extends Node
 
-export var score = 9000
+export var score = 4510
 export var lives = 3
 
 func increase_score(s):
