@@ -47,10 +47,14 @@ editor/display_folded = true
 polygon = PoolVector2Array( 0, 640, 0, 0, 1024, 0, 1024, 640, 1088, 640, 1088, -64, -64, -64, -64, 640, 0, 640 )
 
 [node name="Tiles" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="Gray Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 25, -67 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Tile2" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
 position = Vector2( 214.845, 481.302 )
@@ -163,6 +167,9 @@ position = Vector2( 147.65, 163.3 )
 [node name="Red Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 20, -461 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Tile" parent="Tiles/Red Tiles" instance=ExtResource( 5 )]
 position = Vector2( 218.845, 839.303 )
@@ -263,6 +270,9 @@ position = Vector2( 219.54, 769.105 )
 [node name="Blue Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 23, -502 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Tile" parent="Tiles/Blue Tiles" instance=ExtResource( 5 )]
 position = Vector2( 283.845, 845.303 )
@@ -339,6 +349,9 @@ position = Vector2( 282.915, 740.105 )
 [node name="Green Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 17, -546 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Tile" parent="Tiles/Green Tiles" instance=ExtResource( 5 )]
 position = Vector2( 357.845, 854.303 )
@@ -391,6 +404,9 @@ position = Vector2( 356.943, 713.008 )
 [node name="Purple Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 17.7839, -597.535 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Tile" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
 position = Vector2( 424.845, 871.303 )
@@ -419,6 +435,9 @@ position = Vector2( 492.845, 800.303 )
 [node name="Yellow Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 24.892, -648.643 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Tile" parent="Tiles/Yellow Tiles" instance=ExtResource( 5 )]
 position = Vector2( 485.845, 886.303 )

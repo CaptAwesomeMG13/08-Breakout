@@ -27,15 +27,14 @@ script = ExtResource( 1 )
 editor/display_folded = true
 position = Vector2( 512, 544 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Sprite" type="Sprite" parent="Paddle"]
 texture = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Paddle"]
 shape = SubResource( 1 )
+
+[node name="Tween" type="Tween" parent="Paddle"]
 
 [node name="Ball" parent="." instance=ExtResource( 4 )]
 maxspeed = 250
@@ -47,13 +46,11 @@ editor/display_folded = true
 polygon = PoolVector2Array( 0, 640, 0, 0, 1024, 0, 1024, 640, 1088, 640, 1088, -64, -64, -64, -64, 640, 0, 640 )
 
 [node name="Tiles" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="Gray Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 12, -96 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Tile" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
 
@@ -90,9 +87,6 @@ position = Vector2( 840, 384 )
 [node name="Red Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 12, -132 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Tile" parent="Tiles/Red Tiles" instance=ExtResource( 5 )]
 
@@ -129,9 +123,6 @@ position = Vector2( 840, 384 )
 [node name="Blue Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 12, -168 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Tile" parent="Tiles/Blue Tiles" instance=ExtResource( 5 )]
 
@@ -168,9 +159,6 @@ position = Vector2( 840, 384 )
 [node name="Green Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 12, -204 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Tile" parent="Tiles/Green Tiles" instance=ExtResource( 5 )]
 
@@ -207,9 +195,6 @@ position = Vector2( 840, 384 )
 [node name="Purple Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 12, -240 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Tile" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
 
@@ -246,9 +231,6 @@ position = Vector2( 840, 384 )
 [node name="Yellow Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
 position = Vector2( 12, -276 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Tile" parent="Tiles/Yellow Tiles" instance=ExtResource( 5 )]
 
